@@ -1,0 +1,14 @@
+{
+    "name": "offer-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.ts",
+    "scripts": {
+        "dev": "ts-node-dev ./src/index.ts",
+        "build": "tsc",
+        "watch": "tsc -w",
+        "serve": "node ./dist/index.js"
+    },
+    "author": "G3ru1a",
+    "license": "ISC"
+}
