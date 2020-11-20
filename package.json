@@ -10,5 +10,15 @@
         "serve": "node ./dist/index.js"
     },
     "author": "G3ru1a",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.6",
+        "ts-node": "^9.0.0",
+        "ts-node-dev": "^1.0.0"
+    },
+    "dependencies": {
+        "@types/node": "^14.14.9",
+        "save-dev": "0.0.1-security",
+        "typescript": "^4.1.2"
+    }
 }
